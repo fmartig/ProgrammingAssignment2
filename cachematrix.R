@@ -18,8 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
         getinverse<<-function(){        ##returns the value of the inverse
                 i
         }
-        list(set=set, get=get, setinverse=setinverse, getinverse=getinverse) ##These functions are now available for the calling function.
-}
+        list(set=set, get=get, setinverse=setinverse, getinverse=getinverse) ##These functions are now available 
+}                                                                            ## for the calling function.
 
 
 ## The second function (calling function) computes and returns the inverse of the matrix x, created by makeCacheMatrix. 
